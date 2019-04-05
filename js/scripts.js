@@ -1,8 +1,8 @@
 $(document).ready(function() {
   var beep = "Beep!";
   var boop = "Boop!";
-  var dave = "I'm sorry Dave. I can't do that.";
-  
+  var dave = "I'm sorry Dave. I'm afraid I can't do that.";
+
   $('form#beep').submit(function(event) {
     event.preventDefault();
 

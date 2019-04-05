@@ -6,6 +6,8 @@ body {
 
 }
 
-button {
-  color: white;
+#subBtn {
+  color: red;
+  background-color: white;
+  border-color: red;
 }
