@@ -2,8 +2,7 @@ $(document).ready(function() {
   var beep = "Beep!";
   var boop = "Boop!";
   var dave = "I'm sorry Dave. I can't do that.";
-  var x = dave.includes(3)
-
+  
   $('form#beep').submit(function(event) {
     event.preventDefault();
 

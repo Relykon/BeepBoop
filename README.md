@@ -14,9 +14,9 @@ A website created with HTML, CSS/Bootstrap, JS/JQuery where a user can input a n
 | :-------------     | :------------- | :------------- |
 | **Homepage** | User accesses localhost:5004 | Homepage with user input form |
 | **Does nothing to non numeric characters** | User input: "abcd" | Output: "alert" |
-| **Returns a string of numbers from 0, all the way up to the input number**| User Input: "5" | Output: "0, 1, 2, 3, 4, 5" |
-| **converts numbers containing a "1" to "Beep"**| Input: "1" | Output: "Beep" |
-| **Converts numbers containing a "2" to "Boop, with precedence over "1s"** | Input: "12" | Output: "" |
+| **Returns a range of numbers from 0 to the users inputted number**| User Input: "5" | Output: "0, 1, 2, 3, 4, 5" |
+| **Converts numbers containing a "1" to "Beep!"**| Input: "1" | Output: "Beep" |
+| **Converts numbers containing a "2" to "Boop!", with precedence over "1s"** | Input: "12" | Output: "" |
 | **Converts numbers containing a "3" to "I'm sorry Dave. I'm afraid I can't do that"**| Input: "123" | Output: "" |
 
 ## Setup/Installation Requirements
