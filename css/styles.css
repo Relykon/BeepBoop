@@ -1,3 +1,12 @@
+.jumbotron {
+  width: 50%;
+  margin: 20px;
+  padding: 10px;
+  border-color: black;
+  background-color: #8c0101;
+  text-align: center;
+}
+
 body {
   background-repeat: no-repeat;
   background-image: url(../img/2001.png);
