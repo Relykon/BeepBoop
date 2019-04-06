@@ -26,7 +26,7 @@ A website created with HTML, CSS/Bootstrap, JS/JQuery where a user can input a n
 
 1. Clone this repository: https://github.com/Relykon/BeepBoop.git
 4. Open the index.html file in your browser of choice.
-5. On your browser, navigate to "localhost:5004" and enjoy!
+5. On your browser, navigate to https://relykon.github.io/BeepBoop/ and enjoy!
 
 ## Known Bugs
 * No known bugs at this time.
