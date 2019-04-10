@@ -10,9 +10,6 @@ $(document).ready(function() {
 });
 
 function toMessage(num) {
-  var beep = "Beep!";
-  var boop = "Boop!";
-  var dave = "I'm sorry Dave. I'm afraid can't do that.";
   var message = [];
 
   if (isNaN(num) || num < 0) {
@@ -21,11 +18,11 @@ function toMessage(num) {
 
   for (i=0; i <= num; i++) {
     if (String(i).includes(3)) {
-      message.push(dave);
+      message.push("I'm sorry Dave. I'm afraid can't do that.");
     } else if (String(i).includes(2)) {
-      message.push(boop);
+        message.push("Boop!");
     } else if (String(i).includes(1)) {
-      message.push(beep);
+      message.push("Beep!");
     } else {
       message.push(i);
     }
